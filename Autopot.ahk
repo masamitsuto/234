@@ -1419,8 +1419,8 @@ GetMaxChargesOfInstantFlask(ByRef FlasksData,TypeStr)
                currMaxI:=A_Index
                currMaxCharges:=FlasksData[A_Index].ChargesCurrent
             }
-         }
-         Else If (InStr(FlasksData[A_Index].mod1,"沸騰的"))
+         } 
+	 Else If (InStr(FlasksData[A_Index].mod1,"沸騰的"))
          {
             If FlasksData[A_Index].ChargesCurrent>currMaxCharges
             {
